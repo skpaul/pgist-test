@@ -1,0 +1,29 @@
+{
+	"name": "able/helpers",
+	"type": "library",
+	"keywords": ["phpable", "helpers"],
+	"description": "phpABLE helpers library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Kassius Kress",
+			"email": "hacpaka@eggbe.com"
+		}
+	],
+	"require": {
+		"php": ">=8.0.0",
+		"ext-json": "*",
+		"ext-mbstring": "*",
+		"able/static": "^1.5.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.5.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Able\\Helpers\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
