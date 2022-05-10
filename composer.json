@@ -1,13 +1,13 @@
 {
-	"name": "able/helpers",
+	"name": "skpaul/helpers",
 	"type": "library",
-	"keywords": ["phpable", "helpers"],
-	"description": "phpABLE helpers library",
+	"keywords": ["skpaul", "skpaul"],
+	"description": "skpaul helpers library",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Kassius Kress",
-			"email": "hacpaka@eggbe.com"
+			"name": "skpaul",
+			"email": "skpaul@skpaul.com"
 		}
 	],
 	"require": {
@@ -21,7 +21,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Able\\Helpers\\": "src/"
+			"skpaul\\Helpers\\": "src/"
 		}
 	},
 	"minimum-stability": "dev",
